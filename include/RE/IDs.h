@@ -1744,7 +1744,7 @@ namespace RE::ID
 
 	namespace REFR_LOCK
 	{
-		inline constexpr REL::ID GetLockLevel{ 0 };  // 84103
+		inline constexpr REL::ID GetLockLevel{ 45439 };
 	}
 
 	namespace Refuel_Accept
@@ -2557,7 +2557,7 @@ namespace RE::ID
 		inline constexpr REL::ID GetCurrentLocation{ 63412 };
 		inline constexpr REL::ID GetDistance{ 0 };   // 106562
 		inline constexpr REL::ID GetLinkedRef{ 0 };  // 107578
-		inline constexpr REL::ID GetLock{ 0 };       // 107581
+		inline constexpr REL::ID GetLock{ 64290 };
 		inline constexpr REL::ID GetParentWorldSpace{ 63417 };
 		inline constexpr REL::ID GetScale{ 0 };  // 106658
 		inline constexpr REL::ID GetSpaceship{ 119881 };
