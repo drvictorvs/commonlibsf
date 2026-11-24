@@ -8,9 +8,9 @@ namespace RE
 	{
 	public:
 		// members
-		std::uint32_t bipedObjectSlots;  // 0
+		std::uint64_t bipedObjectSlots;  // 0 - 64 slots (BO64 subrecord; older BOD2 data is converted)
 	};
-	static_assert(sizeof(BIPED_MODEL) == 0x4);
+	static_assert(sizeof(BIPED_MODEL) == 0x8);
 
 	class BGSBipedObjectForm : public BaseFormComponent
 	{

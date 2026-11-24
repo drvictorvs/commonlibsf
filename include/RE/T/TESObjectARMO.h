@@ -50,18 +50,18 @@ namespace RE
 
 	class TESObjectARMO :
 		public TESBoundObject,             // 000
-		public TESFullName,                // 118
-		public TESRaceForm,                // 128
-		public TESEnchantableForm,         // 138
-		public BGSDestructibleObjectForm,  // 150
-		public BGSPickupPutdownSounds,     // 160
-		public TESBipedModelForm,          // 1C8
-		public BGSEquipType,               // 220
-		public BGSBipedObjectForm,         // 230
-		public BGSBlockBashData,           // 240
-		public BGSKeywordForm,             // 258
-		public TESDescription,             // 288
-		public BGSInstanceNamingRulesForm  // 2A0
+		public TESFullName,                // 0E8
+		public TESRaceForm,                // 0F8
+		public TESEnchantableForm,         // 108
+		public BGSDestructibleObjectForm,  // 120
+		public BGSPickupPutdownSounds,     // 130
+		public TESBipedModelForm,          // 198
+		public BGSEquipType,               // 1F0
+		public BGSBipedObjectForm,         // 200
+		public BGSBlockBashData,           // 210
+		public BGSKeywordForm,             // 228
+		public TESDescription,             // 258
+		public BGSInstanceNamingRulesForm  // 270
 	{
 	public:
 		SF_RTTI_VTABLE(TESObjectARMO);
@@ -86,8 +86,8 @@ namespace RE
 		}
 
 		// members
-		BGSEditorID                            formEditorID;   // 278
-		BSTOptional<TESObjectARMOInstanceData> instanceData;   // 288
+		BGSEditorID                            formEditorID;   // 280
+		BSTOptional<TESObjectARMOInstanceData> instanceData;   // 290
 		BSTArray<ArmorAddon>                   modelArray;     // 310
 		BGSAttachParentArray                   attachParents;  // 320
 		std::uint64_t                          unk340;         // 340

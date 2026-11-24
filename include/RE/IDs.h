@@ -2524,6 +2524,11 @@ namespace RE::ID
 		inline constexpr REL::ID GetEventSource{ 0 };  // 107176
 	}
 
+	namespace TESModel
+	{
+		inline constexpr REL::ID VisitMaterialSwaps{ 47660 };
+	}
+
 	namespace TESNPC
 	{
 		inline constexpr REL::ID CopyAppearance{ 68122 };
